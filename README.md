@@ -17,6 +17,8 @@ After using brandsearch.js to pull a thorough list of brands in the verticals of
 
 <h3> Solution </h3>
 
+Using the Google Maps API, I built a tool that queries Google Maps to see if each of the brands generated from brandsearch.js have at-least 20 locations total across some major U.S metro areas.
 
 <h3> Some Implementation Details </h3>
 
+In brandMetroLocations.js, I first of all list all the brands I want to search for in an array. I then define 6 U.S metro areas, in order to limit the number of calls to the Google Maps API. When the Maps API is called, a loop is run that searches for each listed brand in each metro area and then stops the search when a total of 20 locations are found. 
