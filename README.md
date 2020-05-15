@@ -6,10 +6,11 @@ While prospecting for restaurants, retailers, and grocery stores in the U.S, I r
 
 <h3> Solution </h3>
 
-Using the Google Knowledge Graph API, I built a tool that automatically searches the web for different organizations in the "restaurant", "retail", or "grocery categories" and generates a list for me.
+Using the Google Knowledge Graph API, I built a tool that automatically searches the web for different organizations in the "restaurant", "retail", or "grocery categories" and generates a list for me. This saves me the countless google searches I would otherwise have to do to generate a thorough list.
 
 <h3> Some Implementation Details </h3>
 
+In brandsearch.js, 
 
 <h3>Problem 2 </h3>
 
