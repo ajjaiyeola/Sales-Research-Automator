@@ -10,7 +10,7 @@ Using the Google Knowledge Graph API, I built a tool that automatically searches
 
 <h3> Some Implementation Details </h3>
 
-In brandsearch.js, 
+In brandsearch.js, I define the vertical (fast food for example) and U.S state I want to query the Google Knowledge Graph API for. After making a request to the API, the data that is returned is examined to ensure only the types of organizations I am interested in are presented. For example, if I search for "quick service restaurants in Alabama", the script can review the returned data to ensure no organization that has a description of "fullservice" is returned with the result.
 
 <h3>Problem 2 </h3>
 
