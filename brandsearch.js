@@ -49,9 +49,6 @@ async function main() {
       let info = results[resultIndex];
 
       if ((info.result.description) && (info.result.detailedDescription)) {
-        var buffet = info.result.detailedDescription.articleBody.includes("buffet");
-        var fast = info.result.detailedDescription.articleBody.includes("fast");
-        var quick = info.result.detailedDescription.articleBody.includes("quick");
         var fullService = info.result.detailedDescription.articleBody.includes("full");
         if ((info.result.description.includes("restaurant")) || (info.result.description.includes("Restaurant"))) {
           if  (((info.result.detailedDescription.articleBody.includes("quick")) ||(info.result.detailedDescription.articleBody.includes("fast"))) &&!(fullService));{
